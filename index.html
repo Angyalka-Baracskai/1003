@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax pótló feladat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Ajax pótló feladat</h1>
+    <form id="urlap"></form>
+        <div class="col-mb-3">
+            <input type="hidden" name="id" id="id">
+        </div>
+        <div class="col-mb-3">
+            <label for="name" class="form-label">Vezetéknév:</label>
+            <input type="text" name="name" id="vnev">
+        </div>
+        <div class="col-mb-3"></div>
+            <label for="name" class="form-label">Keresztnév:</label>
+            <input type="text" name="name" id="knev">
+        </div>
+        <div class="col-mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <button type="button" id="get" class="btn btn-primary">Get</button>
+        <button type="button" id="delete" class="btn btn-primary">Delete</button>
+        <button type="button" id="insert" class="btn btn-primary">Insert</button>
+        <button type="button" id="update" class="btn btn-primary">Update</button>
+    </form>
+    <div id="table">
+        
+    </div>
+</body>
+</html>
